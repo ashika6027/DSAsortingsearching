@@ -1,0 +1,23 @@
+class Transaction {
+    String id;
+    double fee;
+    String timestamp;
+
+    Transaction(String id, double fee, String timestamp) {
+        this.id = id;
+        this.fee = fee;
+        this.timestamp = timestamp;
+    }
+}
+
+class Client {
+    String name;
+    int riskScore;
+    int balance;
+
+    Client(String name, int riskScore, int balance) {
+        this.name = name;
+        this.riskScore = riskScore;
+        this.balance = balance;
+    }
+}
